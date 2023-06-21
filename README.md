@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# FROGmentator
+# FROGmentor
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -24,29 +24,21 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(FROGmentator)
-## basic example code
-```
+#
+library(tidyverse)
+library(ggplot2)
+library(ggpubr)
+# 
+my_DNA<-gen_DNA(10000)
+pattern1<-'GATC'
+FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+head(FROG_pal_output) # fragment length sizes
+#> [1] 203  79 177   8 306 254
+```
 
 ``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
+FROG_plot(FROG_pal_output, pattern1)
 ```
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+<img src="man/figures/README-unnamed-chunk-3-1.png" width="100%" />
