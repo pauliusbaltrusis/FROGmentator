@@ -1,12 +1,13 @@
 Package: FROGmentator
-Title: What the Package Does (One Line, Title Case)
+Title: Fragments DNAString() objects and estimates fragment length distributions
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Paulius", "Baltrusis", , "pauliusbaltrusis@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7393-8524"))
+Description: The package can be used to test the length of fragments generated upon restriction digestion of your amplicon or, in a vectorized for, of the genomic DNA of interest.
+Imports:
+  Biostrings
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
