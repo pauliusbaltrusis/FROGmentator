@@ -24,3 +24,5 @@ document()
 ?gen_DNA
 
 ctrl+shift+b
+
+push
