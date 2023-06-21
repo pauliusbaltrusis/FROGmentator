@@ -13,28 +13,28 @@ knitr::opts_chunk$set(
 )
 ```
 
-# FROGmentor
+# FROGmentator
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of FROGmentor is to calculate fragment lengths upon template DNA fragmentation with specific pattern recognizing, (restriction) enzymes
+The goal of FROGmentator is to calculate fragment lengths upon template DNA fragmentation with specific pattern recognizing, (restriction) enzymes
 
 ## Installation
 
-You can install the development version of FROGmentor from [GitHub](https://github.com/) with:
+You can install the development version of FROGmentator from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("pauliusbaltrusis/FROGmentor")
+devtools::install_github("pauliusbaltrusis/FROGmentator")
 ```
 
 ## Example
 
-This is a basic example which shows you what FROGmentor does:
+This is a basic example which shows you what FROGmentator does:
 
 ```{r, warning=FALSE, message=FALSE}
-library(FROGmentor)
+library(FROGmentator)
 #
 library(tidyverse)
 library(ggplot2)
