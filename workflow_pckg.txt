@@ -28,3 +28,4 @@ document()
 ctrl+shift+b
 
 push
+use_readme_rmd()
