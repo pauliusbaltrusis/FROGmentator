@@ -1,0 +1,26 @@
+usethis::use_git_config(user.name='Paulius Baltrusis', user.email='pauliusbaltrusis@gmail.com')
+
+usethis::use_git()
+
+usethis::git_sitrep()
+
+gitcreds::gitcreds_set()
+
+usethis::use_github()
+
+usethis::use_r('gen_DNA')
+usethis::use_r('FROG_pal')
+
+#CODE->addROXYGEN skeleton
+
+devtools::check()
+
+usethis::use_mit_license()
+
+usethis::edit_r_profile()
+
+document()
+
+?gen_DNA
+
+ctrl+shift+b
