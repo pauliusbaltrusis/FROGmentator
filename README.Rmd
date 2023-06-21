@@ -48,7 +48,7 @@ head(FROG_pal_output) # fragment length sizes
 ```
 
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE, fig.width=5, fig.height=5}
 FROG_plot(FROG_pal_output, pattern1)
 ```
 

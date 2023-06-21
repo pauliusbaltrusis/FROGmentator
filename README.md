@@ -36,7 +36,7 @@ pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 
 head(FROG_pal_output) # fragment length sizes
-#> [1] 875 134 201 332 333 211
+#> [1] 423  10 171  56 243 111
 ```
 
 ``` r
