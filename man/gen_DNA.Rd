@@ -2,13 +2,19 @@
 % Please edit documentation in R/gen_DNA.R
 \name{gen_DNA}
 \alias{gen_DNA}
-\title{Title}
+\title{Generate a random DNAString object of length n}
 \usage{
 gen_DNA(n)
 }
 \arguments{
-\item{n}{}
+\item{n, }{length of the DNAString you want}
+}
+\value{
+a DNAString object of length n
 }
 \description{
-Title
+Generate a random DNAString object of length n
+}
+\examples{
+gen_DNA(100)
 }
