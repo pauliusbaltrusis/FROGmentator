@@ -13,6 +13,17 @@
 #' @examples my_DNA<-gen_DNA(1000)
 #' pattern1<-'CATATG'
 #' FROG_pal(my_DNA, pattern1)
+#'
+#' #Vectorize FROG_pal and apply it to digest H.sapiens chromosomes 1-22, X and Y:
+#' library(BSgenome.Hsapiens.UCSC.hg38)
+#' vect_FROG_pal<-base::Vectorize(FROG_pal, vectorize.args = c('my_DNA'))
+#' list1<-list()
+#' for (i in seq(1,24,1)) {
+#'   list1[[i]]<-BSgenome.Hsapiens.UCSC.hg38[[i]]
+#'  }
+#' vect_FROG_pal(my_DNA=list1)
+#'
+
 FROG_pal<- function(my_DNA, pattern1='CATATG', pattern2='') {
   x<-matchPattern(pattern1, my_DNA)
   if (pattern2=='') {

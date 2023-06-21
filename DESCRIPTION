@@ -11,6 +11,10 @@ Imports:
   dplyr,
   plyranges,
   stringr,
+  tidyverse,
+  patchwork,
+  ggpubr,
+  ggplot2,
   BSgenome.Hsapiens.UCSC.hg38
 License: MIT + file LICENSE
 Encoding: UTF-8
