@@ -30,3 +30,5 @@ ctrl+shift+b
 push
 use_readme_rmd()
 build_readme()
+
+usethis::use_pkgdown()

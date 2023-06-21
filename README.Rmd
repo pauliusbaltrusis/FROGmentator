@@ -34,7 +34,7 @@ devtools::install_github("pauliusbaltrusis/FROGmentor")
 This is a basic example which shows you what FROGmentor does:
 
 ```{r, warning=FALSE, message=FALSE}
-library(FROGmentator)
+library(FROGmentor)
 #
 library(tidyverse)
 library(ggplot2)

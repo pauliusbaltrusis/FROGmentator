@@ -25,7 +25,7 @@ devtools::install_github("pauliusbaltrusis/FROGmentor")
 This is a basic example which shows you what FROGmentor does:
 
 ``` r
-library(FROGmentator)
+library(FROGmentor)
 #
 library(tidyverse)
 library(ggplot2)
@@ -36,7 +36,7 @@ pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 
 head(FROG_pal_output) # fragment length sizes
-#> [1] 696 187 204 102  63 245
+#> [1]  87 124 188 400 245 520
 ```
 
 ``` r
