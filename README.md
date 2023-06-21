@@ -6,7 +6,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of FROGmentator is to …
+The goal of FROGmentator is to calculate fragment lengths upon template
+DNA fragmentation with specific pattern recognizing, (restriction)
+enzymes
 
 ## Installation
 
@@ -20,7 +22,7 @@ devtools::install_github("pauliusbaltrusis/FROGmentator")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you what FROGmentor does:
 
 ``` r
 library(FROGmentator)
@@ -34,7 +36,7 @@ pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 
 head(FROG_pal_output) # fragment length sizes
-#> [1] 203  79 177   8 306 254
+#> [1]   8 791  21 216 207 611
 ```
 
 ``` r
