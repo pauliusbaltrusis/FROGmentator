@@ -32,3 +32,4 @@ use_readme_rmd()
 build_readme()
 
 usethis::use_pkgdown()
+pkgdown::build_site_github_pages()
