@@ -9,9 +9,9 @@ FROG_pal(my_DNA, pattern1 = "CGTACG", pattern2 = "")
 \arguments{
 \item{my_DNA, }{That's your DNAString you aim to digest}
 
-\item{pattern1, }{the nucleotide sequence pattern the restriction enzyme 1 recognizes}
+\item{pattern1, }{the palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes}
 
-\item{pattern2, }{OPTIONAL: the nucleotide sequence pattern the restriction enzyme 2 recognizes}
+\item{pattern2, }{OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes}
 }
 \value{
 a fragment length vector

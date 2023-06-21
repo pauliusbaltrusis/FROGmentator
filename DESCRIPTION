@@ -9,7 +9,8 @@ Imports:
   Biostrings,
   dplyr,
   plyranges,
-  stringr
+  stringr,
+  BSgenome.Hsapiens.UCSC.hg38
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

@@ -1,8 +1,8 @@
 #' Generate a fragment distance vector for your digested DNAString object
 #'
 #' @param my_DNA, That's your DNAString you aim to digest
-#' @param pattern1, the nucleotide sequence pattern the restriction enzyme 1 recognizes
-#' @param pattern2, OPTIONAL: the nucleotide sequence pattern the restriction enzyme 2 recognizes
+#' @param pattern1, the palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes
+#' @param pattern2, OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes
 #'
 #' @return a fragment length vector
 #' @export
