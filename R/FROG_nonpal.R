@@ -4,7 +4,7 @@
 #' @param pattern1, the non-PALINDROMIC sequence pattern the restriction enzyme 1 recognizes
 #' @param pattern2, OPTIONAL: the non-PALINDROMIC nucleotide sequence pattern the restriction enzyme 2 recognizes
 #'
-#' @return a fragment length vector
+#' @return A vector containing fragment lengths
 #' @export
 #' @importFrom Biostrings matchPattern reverseComplement
 #' @importFrom plyranges as_iranges bind_ranges
@@ -49,6 +49,6 @@ FROG_nonpal<- function(my_DNA, pattern1='ATGCTGATT', pattern2='CGTGACTGGA') {
   range2<-bind_ranges(joined,en)
   #
   distances<-range2@start-range1@start #vectorized expression (vs while loop) = much faster
-  #
+  # Can also try end(range2)-start(range1)
   return(distances)
 }

@@ -14,7 +14,7 @@ FROG_nonpal(my_DNA, pattern1 = "ATGCTGATT", pattern2 = "CGTGACTGGA")
 \item{pattern2, }{OPTIONAL: the non-PALINDROMIC nucleotide sequence pattern the restriction enzyme 2 recognizes}
 }
 \value{
-a fragment length vector
+A vector containing fragment lengths
 }
 \description{
 Generate a fragment distance vector for your digested DNAString object

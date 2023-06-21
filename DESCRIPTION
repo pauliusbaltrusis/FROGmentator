@@ -4,7 +4,8 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Paulius", "Baltrusis", , "pauliusbaltrusis@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7393-8524"))
-Description: The package can be used to test the length of fragments generated upon restriction digestion of your amplicon or, in a vectorized for, of the genomic DNA of interest.
+Description: The package can be used to test the length of fragments generated upon restriction digestion of your amplicon or, in a vectorized form, of the genomic DNA of interest. 
+  Useful functions when working with IRanges to retrieve vectorized elements are start(IRanges_object), end(IRanges_object) and width(IRanges_object).
 Imports:
   Biostrings,
   dplyr,

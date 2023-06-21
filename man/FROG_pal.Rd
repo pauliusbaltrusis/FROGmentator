@@ -14,7 +14,7 @@ FROG_pal(my_DNA, pattern1 = "CGTACG", pattern2 = "")
 \item{pattern2, }{OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes}
 }
 \value{
-a fragment length vector
+A vector containing fragment lengths
 }
 \description{
 Generate a fragment distance vector for your digested DNAString object

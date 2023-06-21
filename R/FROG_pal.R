@@ -4,7 +4,7 @@
 #' @param pattern1, the palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes
 #' @param pattern2, OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes
 #'
-#' @return a fragment length vector
+#' @return A vector containing fragment lengths
 #' @export
 #' @importFrom Biostrings matchPattern
 #' @importFrom plyranges as_iranges bind_ranges
