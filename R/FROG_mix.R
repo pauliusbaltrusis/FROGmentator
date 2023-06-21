@@ -39,6 +39,6 @@ FROG_mix<- function(my_DNA, pattern1='CATATG', pattern2='CGTGACTGGA') {
   range2<-bind_ranges(joined,en)
   #
   distances<-range2@start-range1@start #vectorized expression (vs while loop) = much faster
-  #
+  #Can also try end(range2)-start(range1)
   return(distances)
 }
