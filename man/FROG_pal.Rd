@@ -4,12 +4,12 @@
 \alias{FROG_pal}
 \title{Generate a fragment distance vector for your digested DNAString object}
 \usage{
-FROG_pal(my_DNA, pattern1 = "CGTACG", pattern2 = "")
+FROG_pal(my_DNA, pattern1 = "CATATG", pattern2 = "")
 }
 \arguments{
 \item{my_DNA, }{That's your DNAString you aim to digest}
 
-\item{pattern1, }{the palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes}
+\item{pattern1, }{The palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes}
 
 \item{pattern2, }{OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes}
 }
@@ -21,6 +21,6 @@ Generate a fragment distance vector for your digested DNAString object
 }
 \examples{
 my_DNA<-gen_DNA(1000)
-pattern1<-'CGTACG'
+pattern1<-'CATATG'
 FROG_pal(my_DNA, pattern1)
 }

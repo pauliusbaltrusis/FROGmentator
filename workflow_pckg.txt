@@ -10,6 +10,8 @@ usethis::use_github()
 
 usethis::use_r('gen_DNA')
 usethis::use_r('FROG_pal')
+usethis::use_r('FROG_nonpal')
+usethis::use_r('FROG_mix')
 
 #CODE->addROXYGEN skeleton
 

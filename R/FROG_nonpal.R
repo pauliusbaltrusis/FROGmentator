@@ -1,8 +1,8 @@
 #' Generate a fragment distance vector for your digested DNAString object
 #'
 #' @param my_DNA, That's your DNAString you aim to digest
-#' @param pattern1, the non-PALINDROMIC sequence pattern the restriction enzyme 1 recognizes
-#' @param pattern2, OPTIONAL: the non-PALINDROMIC nucleotide sequence pattern the restriction enzyme 2 recognizes
+#' @param pattern1, The non-PALINDROMIC sequence pattern the restriction enzyme 1 recognizes
+#' @param pattern2, OPTIONAL: The non-PALINDROMIC nucleotide sequence pattern the restriction enzyme 2 recognizes
 #'
 #' @return A vector containing fragment lengths
 #' @export
@@ -19,7 +19,7 @@
 #' library(BSgenome.Hsapiens.UCSC.hg38)
 #' chr1_Hsapiens<-BSgenome.Hsapiens.UCSC.hg38$chr1
 #'
-#' FROG_pal(chr1_Hsapiens, 'ATGCTGATT')
+#' FROG_pal(chr1_Hsapiens, pattern1)
 FROG_nonpal<- function(my_DNA, pattern1='ATGCTGATT', pattern2='CGTGACTGGA') {
   #rc the pattern1 string
   pattern1_rc<-reverseComplement(DNAString(pattern1))

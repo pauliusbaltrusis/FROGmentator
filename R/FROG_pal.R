@@ -1,7 +1,7 @@
 #' Generate a fragment distance vector for your digested DNAString object
 #'
 #' @param my_DNA, That's your DNAString you aim to digest
-#' @param pattern1, the palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes
+#' @param pattern1, The palindromic nucleotide sequence pattern the restriction enzyme 1 recognizes
 #' @param pattern2, OPTIONAL: the palindromic nucleotide sequence pattern the restriction enzyme 2 recognizes
 #'
 #' @return A vector containing fragment lengths
@@ -11,9 +11,9 @@
 #' @importFrom dplyr arrange
 #' @importFrom stringr str_length
 #' @examples my_DNA<-gen_DNA(1000)
-#' pattern1<-'CGTACG'
+#' pattern1<-'CATATG'
 #' FROG_pal(my_DNA, pattern1)
-FROG_pal<- function(my_DNA, pattern1='CGTACG', pattern2='') {
+FROG_pal<- function(my_DNA, pattern1='CATATG', pattern2='') {
   x<-matchPattern(pattern1, my_DNA)
   if (pattern2=='') {
     joined<-as_iranges(x)} else {
@@ -27,6 +27,6 @@ FROG_pal<- function(my_DNA, pattern1='CGTACG', pattern2='') {
   range2<-bind_ranges(joined,en)
 
   distances<-range2@start-range1@start
-
+  # Can also try end(range2)-start(range1)
   return(distances)
 }
