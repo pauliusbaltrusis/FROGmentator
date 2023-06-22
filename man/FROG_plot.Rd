@@ -20,9 +20,7 @@ Fragment length distributions and a table with basic descriptive statistics
 Plot the saved vector (fragment length) outputs generated with FROG_pal, FROG_nonpal or FROG_mix
 }
 \examples{
-library(tidyverse)
-library(ggplot2)
-library(ggpubr)
+library(FROGmentator)
 my_DNA<-gen_DNA(1000)
 pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)

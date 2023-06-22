@@ -12,6 +12,7 @@ Imports:
   plyranges,
   stringr,
   tidyverse,
+  tibble,
   patchwork,
   ggpubr,
   ggplot2,

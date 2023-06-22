@@ -7,13 +7,12 @@
 #' @return Fragment length distributions and a table with basic descriptive statistics
 #' @export
 #' @import tidyverse
+#' @import tibble
 #' @import ggplot2
 #' @import ggpubr
 #' @import patchwork
 #' @examples
-#' library(tidyverse)
-#' library(ggplot2)
-#' library(ggpubr)
+#' library(FROGmentator)
 #' my_DNA<-gen_DNA(1000)
 #' pattern1<-'GATC'
 #' FROG_pal_output<-FROG_pal(my_DNA, pattern1)
