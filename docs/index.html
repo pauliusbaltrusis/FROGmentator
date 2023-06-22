@@ -80,16 +80,12 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/pauliusbaltrusis/FROGmentator" class="external-link">FROGmentator</a></span><span class="op">)</span></span>
 <span><span class="co">#</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org" class="external-link">tidyverse</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></span>
-<span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://rpkgs.datanovia.com/ggpubr/" class="external-link">ggpubr</a></span><span class="op">)</span></span>
-<span><span class="co"># </span></span>
 <span><span class="va">my_DNA</span><span class="op">&lt;-</span><span class="fu"><a href="reference/gen_DNA.html">gen_DNA</a></span><span class="op">(</span><span class="fl">10000</span><span class="op">)</span></span>
 <span><span class="va">pattern1</span><span class="op">&lt;-</span><span class="st">'GATC'</span></span>
 <span><span class="va">FROG_pal_output</span><span class="op">&lt;-</span><span class="fu"><a href="reference/FROG_pal.html">FROG_pal</a></span><span class="op">(</span><span class="va">my_DNA</span>, <span class="va">pattern1</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">FROG_pal_output</span><span class="op">)</span> <span class="co"># fragment length sizes</span></span>
-<span><span class="co">#&gt; [1] 423  10 171  56 243 111</span></span></code></pre></div>
+<span><span class="co">#&gt; [1] 107   9 188  89 351 386</span></span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="reference/FROG_plot.html">FROG_plot</a></span><span class="op">(</span><span class="va">FROG_pal_output</span>, <span class="va">pattern1</span><span class="op">)</span></span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-3-1.png" width="100%"></p>
