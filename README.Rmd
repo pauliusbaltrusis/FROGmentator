@@ -37,10 +37,6 @@ This is a basic example which shows you what FROGmentator does:
 ```{r, warning=FALSE, message=FALSE}
 library(FROGmentator)
 #
-library(tidyverse)
-library(ggplot2)
-library(ggpubr)
-# 
 my_DNA<-gen_DNA(10000)
 pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)

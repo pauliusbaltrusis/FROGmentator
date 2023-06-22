@@ -6,8 +6,6 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-![FROG](FROGmentatorv1.png)
-
 The goal of FROGmentator is to calculate fragment lengths upon template
 DNA fragmentation with specific pattern recognizing, (restriction)
 enzymes
@@ -29,16 +27,12 @@ This is a basic example which shows you what FROGmentator does:
 ``` r
 library(FROGmentator)
 #
-library(tidyverse)
-library(ggplot2)
-library(ggpubr)
-# 
 my_DNA<-gen_DNA(10000)
 pattern1<-'GATC'
 FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 
 head(FROG_pal_output) # fragment length sizes
-#> [1] 793 145  35 800 435  81
+#> [1] 107   9 188  89 351 386
 ```
 
 ``` r
