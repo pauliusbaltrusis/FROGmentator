@@ -16,9 +16,11 @@ knitr::opts_chunk$set(
 # FROGmentator
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-![FROG](/c/Users/pelechanolabuser/Desktop/raukr 2023/Project/FROGmentorv1.png)
+![FROG](C:/Users/pelechanolabuser/Desktop/raukr 2023/Project/FROGmentorv1.png) 
+
 The goal of FROGmentator is to calculate fragment lengths upon template DNA fragmentation with specific pattern recognizing, (restriction) enzymes
 
 ## Installation
@@ -48,8 +50,6 @@ FROG_pal_output<-FROG_pal(my_DNA, pattern1)
 head(FROG_pal_output) # fragment length sizes
 ```
 
-
 ```{r, warning=FALSE, message=FALSE, fig.width=5, fig.height=5}
 FROG_plot(FROG_pal_output, pattern1)
 ```
-
