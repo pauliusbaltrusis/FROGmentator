@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+![FROG](Frogmentatorv1.png)
+
 The goal of FROGmentator is to calculate fragment lengths upon template
 DNA fragmentation with specific pattern recognizing, (restriction)
 enzymes
