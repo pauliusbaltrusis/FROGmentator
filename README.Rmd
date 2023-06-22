@@ -19,8 +19,6 @@ knitr::opts_chunk$set(
 
 <!-- badges: end -->
 
-![FROG](C:/Users/pelechanolabuser/Desktop/raukr 2023/Project/FROGmentorv1.png) 
-
 The goal of FROGmentator is to calculate fragment lengths upon template DNA fragmentation with specific pattern recognizing, (restriction) enzymes
 
 ## Installation
